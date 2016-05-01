@@ -69,12 +69,12 @@ h3{
 }
 
 .instructors div{
-  margin: auto;
+  display: inline-block;
   width: 40%;
 }
 
 .instructors div img{
-  width: 100%;
+  width: 50%;
   border-radius: 100%;
 }
 
