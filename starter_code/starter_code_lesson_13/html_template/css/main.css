@@ -1,0 +1,97 @@
+/* ==========================================================================
+   Global Overrides
+  ========================================================================== */
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+html{
+  font-size: 12px;
+}
+/* ==========================================================================
+   Author's custom styles
+  ========================================================================== */
+/*HEADER STYLING*/
+
+/*nav styling*/
+nav ul li{
+  float: left;
+  margin: 1rem;
+}
+
+/*hamburger styling*/
+.hamburger{
+  width: 2.5rrem;
+  float: right;
+  margin: 0rem;
+}
+
+.line{
+  width: 2.5rrem;
+  height: .3125rrem;
+  background: rgba(0, 0, 0, 0.4);
+  transition: 0.5s;
+  border-radius: 2.5rrem;
+  margin-bottom: .52rem;
+  opacity: 1;
+  /* 1. Set the transition property on the .line class */
+  /*transition: all 1s ease;*/
+}
+
+/*BODY*/
+.hero{
+  clear:both;
+  height: 500px;
+  background-color: gray;
+}
+
+article{
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+
+footer div{
+  width: 33%;
+  height: 100px;
+  background-color: yellow;
+  float: left;
+  text-align: center;
+  padding: 2.5rem;
+}
+
+/*overide for tablet*/
+@media (max-width: 1000px){
+      nav{
+        display: none;
+      }
+
+      article{
+        width: 100%;
+      }
+
+      footer div{
+        width: 100%;
+      }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
