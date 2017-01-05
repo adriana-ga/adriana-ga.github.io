@@ -95,40 +95,13 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-/* Clearfix */
-.cf:before,
-.cf:after {
-  content: " ";
-  /* 1 */
-  display: table;
-  /* 2 */
-}
-
-.cf:after {
-  clear: both;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-}
-
-html, body {
-  background: #f1f1f1;
-  font-family: 'Merriweather', sans-serif;
-  padding: 1em;
-}
-
-h1 {
-  text-align: center;
-  color: #a8a8a8;
-}
 
 
 
 
-/* Put your styles here! */
+
+
+
 
 
 
@@ -306,9 +279,4 @@ h1 {
     h3 {
         page-break-after: avoid;
     }
-}
-
-/* Style form here */
-textarea{
-  resize: none;
 }

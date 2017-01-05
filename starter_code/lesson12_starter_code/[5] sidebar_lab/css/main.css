@@ -1,0 +1,32 @@
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Lato', Calibri, Arial, sans-serif;
+  color: #555;
+  background-color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 2em;
+}
+
+h2 {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+  margin: 2.5em 0 1em;
+}
